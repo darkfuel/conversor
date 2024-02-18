@@ -1,0 +1,20 @@
+body{
+    margin: 150px; 
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+main{
+    background-color: rgb(105, 103, 103);
+    height: 30px;
+}
+
+h2{
+    color:white;
+}
+
+p{
+    font-weight:600;
+    font-size: large;
+    font-style: italic;
+}
