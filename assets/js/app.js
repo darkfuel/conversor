@@ -84,11 +84,11 @@ const renderCoin = (coin) => {
     let vPeso = input.value
     if (selec.value === 'Dolar') {
         const vDolar = coin.dolar.valor
-        let vResult = vPeso * vDolar
+        let vResult = vPeso / vDolar
         result.innerHTML = '($)  ' + vResult.toFixed(2)
     } else {
         const vEuro = coin.euro.valor
-        let vResult = vPeso * vEuro
+        let vResult = vPeso / vEuro
         result.innerHTML = '(€)  ' + vResult.toFixed(2)
     }
 }
